@@ -164,11 +164,10 @@
   color: #ffffff;
 }
 
-
 .categories__cart:hover ~ .categoires__popup {
   transform: scale(1);
   opacity: 1;
-} 
+}
 
 .categoires__popup:hover {
   opacity: 1;

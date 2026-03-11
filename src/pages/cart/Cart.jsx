@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { cont, cont_left } from "../../data/Cart";
 import "./Cart.css";
 import { useState } from "react";
+import HomeFrequently from "../../components/homeFrequently/HomeFrequently";
 
 const Cart = () => {
   const [count, setCount] = useState(0);
@@ -56,6 +57,7 @@ const Cart = () => {
           <button>Shop now</button>
         </div>
       </div>
+      <HomeFrequently />
     </div>
   );
 };
