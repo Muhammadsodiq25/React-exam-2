@@ -1,0 +1,32 @@
+.homeMain {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: #0c59b6;
+  padding: 25px 50px;
+  border-radius: 20px;
+  color: #ffffff;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.homeMain__text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+}
+
+.homeMain--subtitle {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.homeMain--title {
+  font-weight: 700;
+  font-size: 68px;
+}
+
+.homeMain--img {
+    width: 600px;
+}

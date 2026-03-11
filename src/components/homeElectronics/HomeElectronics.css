@@ -1,0 +1,78 @@
+.homeElectronics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  width: 100%;
+  gap: 30px;
+}
+
+.homeElectronics__top {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.homeElectronics__top h3 {
+  font-weight: 800;
+  font-size: 34px;
+}
+
+.homeElectronics__top h3 span {
+  color: #fcbd01;
+}
+
+.homeElectronics__top button {
+  font-weight: 800;
+  font-size: 20px;
+  padding: 10px 27px;
+  border-radius: 8px;
+  border: none;
+  background-color: #fcbd01;
+  cursor: pointer;
+}
+
+.homeElectronics__cont {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.homeElectronics__cart {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  padding-bottom: 20px;
+  border-radius: 17px;
+}
+
+.homeElectronics__cart--img {
+  width: 200px;
+}
+
+.homeElectronics__cart__text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.homeElectronics__cart__text p {
+  padding: 10px 21px;
+  color: #ffffff;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.homeElectronics__cart__text img {
+  width: 70px;
+}
+
+.homeElectronics__cart__text h3 {
+  font-weight: 600;
+  font-size: 27px;
+}
+

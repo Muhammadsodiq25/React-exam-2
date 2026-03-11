@@ -1,0 +1,84 @@
+.footer {
+  display: flex;
+  align-items: start;
+  width: 100%;
+  margin-top: 40px;
+  background-color: #191c1f;
+  padding: 50px 225px;
+  justify-content: space-around;
+  position: relative;
+}
+
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.footer__contact img {
+  width: 300px;
+}
+.footer__contact p {
+  color: #adb7bc;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.footer__contact h5 {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.footer__cart {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.footer__cart--title {
+  font-weight: 500;
+  font-size: 23px;
+  color: #ffffff;
+}
+
+.footer__cart ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: start;
+}
+
+.footer--link {
+  font-weight: 500;
+  font-size: 18px;
+  color: #929fa5;
+}
+
+.footer--link:hover {
+  color: #ebc80c;
+}
+
+.footer__download {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.footer__download h3 {
+  font-weight: 500;
+  font-size: 23px;
+  color: #ffffff;
+}
+
+.footer__download button {
+  border: none;
+  background-color: inherit;
+}
+
+.footer__download button img {
+  width: 200px;
+}

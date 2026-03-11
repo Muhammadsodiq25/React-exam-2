@@ -1,0 +1,145 @@
+.zara {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+  width: 100%;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.zara__content {
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.zara__content__left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  width: 30%;
+}
+
+.zara__content__left button {
+  background-color: inherit;
+  border: none;
+  padding: 10px 0px;
+  border-bottom: 1px solid #0000001f;
+  width: 200px;
+  text-align: start;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.zara__content__left form {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.zara__content__left form div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.zara__content__left form label {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.zara__content__left form input {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.zara__cont {
+  display: grid;
+  width: 70%;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.zara__cart {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.zara__cart--img {
+  width: 100%;
+  background-color: #ecedef;
+  border-radius: 20px;
+  border: 18px solid #fafafa;
+}
+
+.zara__cart__text {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: start;
+}
+
+.zara__cart__text h3 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.zara__cart__text p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.zara__cart__text p img {
+  width: 100px;
+}
+
+.zara__cart__text p span {
+  font-weight: 400;
+  font-size: 13px;
+  color: #5f6c72;
+}
+
+.zara__cart__text button {
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+  padding: 15px 20px;
+  background-color: #232321;
+  border-radius: 8px;
+  color: #ffffff;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.zara__cart__img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.zara__cart__icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  z-index: 1000;
+}
+
+.zara__cart__icons button {
+  background-color: inherit;
+  cursor: pointer;
+  border: none;
+}
