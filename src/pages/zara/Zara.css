@@ -130,12 +130,18 @@
   width: 100%;
 }
 
+.zara__cart__img:hover .zara__cart__icons {
+  opacity: 1;
+  transform: scale(1);
+}
+
 .zara__cart__icons {
   display: flex;
   align-items: center;
   gap: 20px;
   position: absolute;
   z-index: 1000;
+  transform: scale(0);
 }
 
 .zara__cart__icons button {

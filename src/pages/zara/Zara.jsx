@@ -3,10 +3,8 @@ import { zara_cont } from "../../data/Zara";
 import cartImgIcon1 from "../../assets/zara-cart-img-icon1.png";
 import cartImgIcon2 from "../../assets/zara-cart-img-icon2.png";
 import { Link } from "react-router-dom";
-import { useState } from "react";
 
 const Zara = () => {
-  const [show, setShow] = useState(false);
   return (
     <div className="zara">
       <div className="allCategories__top">
@@ -71,18 +69,8 @@ const Zara = () => {
             return (
               <div key={index} className="zara__cart">
                 <div className="zara__cart__img">
-                  <img
-                    src={cart.img}
-                    alt=""
-                    onMouseEnter={() => setShow(show === true)}
-                    onMouseLeave={() => setShow(show === false)}
-                    className="zara__cart--img"
-                  />
-                  <div
-                    className="zara__cart__icons"
-                    style={{ display: `${show ? "flex" : "none"}` }}
-                    onMouseEnter={() => setShow(show === true)}
-                  >
+                  <img src={cart.img} alt="" className="zara__cart--img" />
+                  <div className="zara__cart__icons">
                     <Link to="/product" className="zara__cart__icons__link">
                       <img src={cartImgIcon1} alt="" />
                     </Link>

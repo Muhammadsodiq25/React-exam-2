@@ -1,10 +1,10 @@
-import { useState } from "react";
+// import { useState } from "react";
 import "./Categories.css";
 import { Link } from "react-router-dom";
 import { cont2, rightrightImg } from "../../data/Categories";
 
 const Categories = ({ cont, popup_left, popup_right }) => {
-  const [show, setShow] = useState(false);
+  // const [show, setShow] = useState(false);
 
   return (
     <div className="categories">
@@ -12,8 +12,8 @@ const Categories = ({ cont, popup_left, popup_right }) => {
         return (
           <Link
             className="categories__cart"
-            onMouseEnter={() => setShow(show == false)}
-            onMouseLeave={() => setShow(show == true)}
+            // onMouseEnter={() => setShow(show == false)}
+            // onMouseLeave={() => setShow(show == true)}
             key={index}
             to={cart.to}
           >
@@ -24,7 +24,7 @@ const Categories = ({ cont, popup_left, popup_right }) => {
 
       <div
         className="categoires__popup"
-        style={{ display: `${show ? "flex" : "none"}` }}
+        // style={{ display: `${show ? "flex" : "none"}` }}
       >
         <div className="categoires__popup__left">
           {popup_left.map((cart, index) => {
